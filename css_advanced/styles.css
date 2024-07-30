@@ -25,13 +25,6 @@
     font-style: italic;
 }
 
-@font-face {
-    font-family: 'Source Sans Pro';
-    src: url('fonts/source-sans-pro/SourceSansPro-Light.otf');
-    font-weight: lighter;
-    font-style: normal;
-}
-
 * {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
@@ -133,7 +126,7 @@ header {
 
 .subtitle {
     font-size: 32px;
-    font-weight: lighter;
+    font-weight: 100;
     width: 291px;
     height: 40px;
 }
@@ -251,7 +244,7 @@ is already defined is the "CSS, advanced 2. Header and Banner" part.
 
 .videos h3, .videos_stars p {
     color: #C271FF;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 14px;
 
 }
