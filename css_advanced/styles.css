@@ -115,6 +115,7 @@ header {
     box-shadow: 0 2px 20px #00000080;
     margin-top: 2rem;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .pros_container {
@@ -277,4 +278,73 @@ is already defined is the "CSS, advanced 2. Header and Banner" part.
 
 .videos_stars p {
     margin: 0rem;
+}
+
+/*
+==========================================
+        CSS, advanced 5. Membership
+==========================================
+*/
+
+.membership {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 502px;
+    background-color: #071629;
+    color: #FFFFFF;
+}
+
+.membership h1 {
+    font-weight: 100;
+    font-size: 32px;
+}
+
+/*
+<span class="highlight"> to make the word "Free" bold and purple
+is already defined is the "CSS, advanced 2. Header and Banner" part.
+*/
+
+.membership img {
+    margin-bottom: 2rem;
+}
+
+.lorems {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.lorem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lorem h2 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.lorem p {
+    font-size: 14px;
+    line-height: 175%;
+    margin: 1rem;
+}
+
+.membership button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 162px;
+    height: 44px;
+    color: #FFFFFF;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
 }
