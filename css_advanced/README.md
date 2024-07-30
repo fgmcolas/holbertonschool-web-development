@@ -1,4 +1,7 @@
 # CSS Advanced Project
+
+![Custom Get Schooled](website.png)
+
 ## Overview
 
 This project focuses on enhancing an existing HTML project with advanced CSS styling to achieve a professional and polished look. You will use a Figma design file to guide your styling decisions and ensure accuracy. This project will test your understanding of CSS fundamentals, specificity, and advanced styling techniques.
