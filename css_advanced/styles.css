@@ -46,9 +46,6 @@ a {
 }
 
 body {
-    background-image: url('imgs/background.png');
-    background-repeat: no-repeat;
-    background-size: contain;
     margin: auto;
     color: #FFFFFF;
 }
@@ -57,6 +54,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('imgs/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .navbar {
@@ -130,6 +131,18 @@ header {
     margin-top: 10rem;
 }
 
+.subtitle {
+    font-size: 32px;
+    font-weight: lighter;
+    width: 291px;
+    height: 40px;
+}
+
+.learn {
+    font-weight: bold;
+    color:#C271FF
+}
+
 .pros {
     display: flex;
     justify-content: space-between;
@@ -154,14 +167,48 @@ header {
     margin-bottom: 1rem;
 }
 
-.subtitle {
-    font-size: 32px;
-    font-weight: lighter;
-    width: 291px;
-    height: 40px;
+.pro h3 {
+    font-size: 18px;
 }
 
-.learn {
+.pro p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+/*
+==========================================
+        CSS, advanced 3. Quote
+==========================================
+*/
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C271FF;
+    height: 25rem;
+    font-size: 22px;
+}
+
+.testimonials img {
+    width: 160px;
+    height: 160px;
+    margin-right: 3rem;
+}
+
+.testimonials_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials h4 {
     font-weight: bold;
-    color:#C271FF
+    margin-top: 1rem;
+}
+
+.testimonials p {
+    font-style: italic;
 }
