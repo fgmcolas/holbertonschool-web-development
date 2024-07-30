@@ -57,7 +57,7 @@ header {
     background-image: url('imgs/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    height: 1093px;
 }
 
 .navbar {
@@ -138,7 +138,7 @@ header {
     height: 40px;
 }
 
-.learn {
+.highlight {
     font-weight: bold;
     color:#C271FF
 }
@@ -178,7 +178,7 @@ header {
 
 /*
 ==========================================
-        CSS, advanced 3. Quote
+        CSS, advanced 3. Quotes
 ==========================================
 */
 
@@ -211,4 +211,77 @@ header {
 
 .testimonials p {
     font-style: italic;
+}
+
+/*
+==========================================
+        CSS, advanced 4. Videos list
+==========================================
+*/
+
+.videos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 624px;
+}
+
+.videos h1 {
+    color: #071629;
+    font-weight: normal;
+    font-size: 32px;
+    margin-bottom: 5rem;
+}
+
+/*
+<span class="highlight"> to make the word "popular" bold and purple
+is already defined is the "CSS, advanced 2. Header and Banner" part.
+*/
+
+.videos h2 {
+    color: #071629;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.videos p {
+    color: #07162980;
+}
+
+.videos h3, .videos_stars p {
+    color: #C271FF;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.videos_container,
+.videos_pro,
+.videos_stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.videos_pro {
+    align-items: center;
+}
+
+.videos_pro img {
+    margin-right: 1rem;
+}
+
+.videos h2,
+.videos p,
+.videos_pro,
+.videos_stars {
+    margin: 1rem;
+}
+
+.videos_stars {
+    justify-content: space-between;
+}
+
+.videos_stars p {
+    margin: 0rem;
 }
