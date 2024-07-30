@@ -7,10 +7,36 @@
 @font-face {
     font-family: 'Source Sans Pro';
     src: url('fonts/source-sans-pro/SourceSansPro-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/source-sans-pro/SourceSansPro-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/source-sans-pro/SourceSansPro-It.otf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/source-sans-pro/SourceSansPro-Light.otf');
+    font-weight: lighter;
+    font-style: normal;
 }
 
 * {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -22,11 +48,56 @@ a {
 body {
     background-image: url('imgs/background.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 1440px;
+    margin: auto;
+    color: #FFFFFF;
 }
 
 header {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+    width: 1103px;
+    margin-left: 112px;
+}
+
+.navbar a.logo img {
+    height: 29px;
+    width: 167px;
+}
+
+.navbar_links {
+    display: flex;
+    justify-content: space-between;
+    width: 234px;
+    height: 15px;
+}
+
+.navbar_links a {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.banner_sub {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: bold;
+}
