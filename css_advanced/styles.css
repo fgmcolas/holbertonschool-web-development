@@ -322,6 +322,8 @@ is already defined is the "CSS, advanced 2. Header and Banner" part.
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
+    margin: 0 5rem 0 5rem;
 }
 
 .lorem h2 {
@@ -347,4 +349,47 @@ is already defined is the "CSS, advanced 2. Header and Banner" part.
     border-radius: 25px;
     font-size: 14px;
     cursor: pointer;
+}
+
+/*
+==========================================
+        CSS, advanced 6. FAQ
+==========================================
+*/
+
+.faq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #071629;
+}
+
+.faq h1 {
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: 5rem;
+}
+
+.faq h2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.faq p {
+    font-size: 14px;
+    color: #07162980;
+    line-height: 150%;
+    margin-top: 2rem;
+}
+
+.faq_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.faq_block {
+    margin: 5rem;
 }
