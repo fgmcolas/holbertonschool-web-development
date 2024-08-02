@@ -221,6 +221,18 @@ header {
     height: 624px;
 }
 
+.player {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+
+.player_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .videos h1 {
     color: #071629;
     font-weight: normal;
